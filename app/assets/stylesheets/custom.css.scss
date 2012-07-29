@@ -43,7 +43,7 @@ p {
 	font-size: 1.1em;
 	line-height: 1.7em;
 }
-# logo {
+#logo {
 	float: left;
 	margin-right: 10px;
 	font-size: 1.7em;
@@ -58,4 +58,34 @@ p {
 #logo:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+/* footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #999;
+}
+
+footer a {
+	color: #555;
+}
+
+footer a:hover {
+	color: #222;
+}
+
+footer small {
+	float:left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+footer ul li {
+	float:left;
+	margin-left: 10px;
 }
